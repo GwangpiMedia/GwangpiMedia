@@ -23,14 +23,7 @@ public class BrokenGlass : MonoBehaviour
         }
 
         _originalGlass.SetActive(false);
-        
-        Vector3 brokenGlassRotation = new Vector3(90f, 45f, 90f);
-
-        _brokenInstance = Instantiate(
-            _brokenGlassPrefab,
-            _originalGlass.transform.position,
-            Quaternion.Euler(brokenGlassRotation)
-        );
+        _brokenInstance = Instantiate(_brokenGlassPrefab);
 
     }
 
@@ -53,7 +46,7 @@ public class BrokenGlass : MonoBehaviour
         {
             Vector3 randomDir = (-forward + Random.insideUnitSphere * _spread).normalized;
             rb.AddForce(randomDir * _explosionForce, ForceMode.Impulse);
-            Destroy(rb.gameObject, 1f);
+            Destroy(rb.gameObject, 2f);
         }
     }
 }
