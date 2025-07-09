@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c18ee99870ae47443b77bfefe95e8de9
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 98045
+  packageName: Rokoko Live
+  packageVersion: 2.0.2
+  assetPath: Assets/Rokoko/package.json
+  uploadId: 616054

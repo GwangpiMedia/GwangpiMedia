@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 23947746632310247af5d08e4faf5afd
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 98045
+  packageName: Rokoko Live
+  packageVersion: 2.0.2
+  assetPath: Assets/Rokoko/EditorScripts/Editor/CharacterEditor.cs
+  uploadId: 616054

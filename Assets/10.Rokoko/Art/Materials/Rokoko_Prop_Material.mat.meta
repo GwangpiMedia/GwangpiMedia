@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: efb193505e790244d941eded8ab70459
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 98045
+  packageName: Rokoko Live
+  packageVersion: 2.0.2
+  assetPath: Assets/Rokoko/Art/Materials/Rokoko_Prop_Material.mat
+  uploadId: 616054

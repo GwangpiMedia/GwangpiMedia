@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8920424d8d5d2df4d93ee8ec0078a52b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 98045
+  packageName: Rokoko Live
+  packageVersion: 2.0.2
+  assetPath: Assets/Rokoko/Scripts/Core/CommandAPI/RecordingRequestData.cs
+  uploadId: 616054

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8b7631c1f06f4144abfa5da7ebc0f80c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 98045
+  packageName: Rokoko Live
+  packageVersion: 2.0.2
+  assetPath: Assets/Rokoko/Scripts/Mono/Inputs/Character.cs
+  uploadId: 616054

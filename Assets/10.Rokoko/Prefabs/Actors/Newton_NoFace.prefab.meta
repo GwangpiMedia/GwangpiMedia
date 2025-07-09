@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 45a3ed8bac3c96c4297dcd116a155351
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 98045
+  packageName: Rokoko Live
+  packageVersion: 2.0.2
+  assetPath: Assets/Rokoko/Prefabs/Actors/Newton_NoFace.prefab
+  uploadId: 616054

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b14cf39ebf53638488debce90a690ad2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 98045
+  packageName: Rokoko Live
+  packageVersion: 2.0.2
+  assetPath: Assets/Rokoko/EditorScripts/Editor/BlendShapesMappingEditor.cs
+  uploadId: 616054

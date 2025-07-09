@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: f38fe44d6bfb49dbabd93aea7da287ed
+timeCreated: 1565078235
+AssetOrigin:
+  serializedVersion: 1
+  productId: 98045
+  packageName: Rokoko Live
+  packageVersion: 2.0.2
+  assetPath: Assets/Rokoko/Scripts/Core/CommandAPI/StudioCommandAPI.cs
+  uploadId: 616054

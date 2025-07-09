@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 6ffddd999956ac94880e3d3b948a51b9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 98045
+  packageName: Rokoko Live
+  packageVersion: 2.0.2
+  assetPath: Assets/Rokoko/EditorScripts/Editor/PropEditor.cs
+  uploadId: 616054

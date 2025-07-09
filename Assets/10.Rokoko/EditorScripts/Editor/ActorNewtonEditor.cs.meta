@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d1046da63220b6747b3ff405b5d9b66f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 98045
+  packageName: Rokoko Live
+  packageVersion: 2.0.2
+  assetPath: Assets/Rokoko/EditorScripts/Editor/ActorNewtonEditor.cs
+  uploadId: 616054
