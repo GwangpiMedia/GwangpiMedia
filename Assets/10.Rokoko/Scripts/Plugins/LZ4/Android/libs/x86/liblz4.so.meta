@@ -1,0 +1,34 @@
+fileFormatVersion: 2
+guid: 334dff52187feb849ab4ea932a1b7b73
+PluginImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  iconMap: {}
+  executionOrder: {}
+  defineConstraints: []
+  isPreloaded: 0
+  isOverridable: 0
+  isExplicitlyReferenced: 0
+  validateReferences: 1
+  platformData:
+  - first:
+      Any: 
+    second:
+      enabled: 1
+      settings: {}
+  - first:
+      Editor: Editor
+    second:
+      enabled: 0
+      settings:
+        DefaultValueInitialized: true
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 98045
+  packageName: Rokoko Live
+  packageVersion: 2.0.2
+  assetPath: Assets/Rokoko/Scripts/Plugins/LZ4/Android/libs/x86/liblz4.so
+  uploadId: 616054

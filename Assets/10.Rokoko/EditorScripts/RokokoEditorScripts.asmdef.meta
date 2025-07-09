@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 855bf3bf522250848be7ed3fd9e6664e
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 98045
+  packageName: Rokoko Live
+  packageVersion: 2.0.2
+  assetPath: Assets/Rokoko/EditorScripts/RokokoEditorScripts.asmdef
+  uploadId: 616054

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c0283c4bf59b9ad4aa5b4622e1c041a8
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 98045
+  packageName: Rokoko Live
+  packageVersion: 2.0.2
+  assetPath: Assets/Rokoko/Scripts/RokokoAssembly.asmdef
+  uploadId: 616054

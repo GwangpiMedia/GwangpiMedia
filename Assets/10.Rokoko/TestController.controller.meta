@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f6c0975243dc3864cb6e1bea3a9f4386
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 98045
+  packageName: Rokoko Live
+  packageVersion: 2.0.2
+  assetPath: Assets/Rokoko/TestController.controller
+  uploadId: 616054

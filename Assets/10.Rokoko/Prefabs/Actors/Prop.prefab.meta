@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1b1f12af1c3d2fa4bb2cd58a1aa78db5
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 98045
+  packageName: Rokoko Live
+  packageVersion: 2.0.2
+  assetPath: Assets/Rokoko/Prefabs/Actors/Prop.prefab
+  uploadId: 616054

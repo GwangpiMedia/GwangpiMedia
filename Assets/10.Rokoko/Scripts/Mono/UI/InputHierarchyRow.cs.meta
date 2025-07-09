@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 1ad284b4954ca4e4e87c771f198afd80
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 98045
+  packageName: Rokoko Live
+  packageVersion: 2.0.2
+  assetPath: Assets/Rokoko/Scripts/Mono/UI/InputHierarchyRow.cs
+  uploadId: 616054
