@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2edbf34b4abdb9340a4ac4ee60fa76a9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206987
+  packageName: The Realtime Rascals Face Capture Character Pack
+  packageVersion: 1.0
+  assetPath: Assets/RealtimeRascals_Facetracking/Sydney_Rabbit/Animators/RabbitAnimationController.controller
+  uploadId: 463232

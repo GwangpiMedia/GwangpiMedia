@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f59eec1c947fbd64fb90bcf635dd3ad7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206987
+  packageName: The Realtime Rascals Face Capture Character Pack
+  packageVersion: 1.0
+  assetPath: Assets/RealtimeRascals_Facetracking/Sydney_Rabbit/FaceMapper/SydneySuitFaceMapper.asset
+  uploadId: 463232

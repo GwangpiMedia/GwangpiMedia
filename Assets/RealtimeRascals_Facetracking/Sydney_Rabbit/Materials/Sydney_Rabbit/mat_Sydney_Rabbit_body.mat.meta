@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 23bf7a3245d999845b6f53af68ac9bcc
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 206987
+  packageName: The Realtime Rascals Face Capture Character Pack
+  packageVersion: 1.0
+  assetPath: Assets/RealtimeRascals_Facetracking/Sydney_Rabbit/Materials/Sydney_Rabbit/mat_Sydney_Rabbit_body.mat
+  uploadId: 463232
