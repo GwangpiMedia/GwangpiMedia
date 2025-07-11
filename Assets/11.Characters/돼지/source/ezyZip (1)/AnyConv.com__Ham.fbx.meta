@@ -79,8 +79,545 @@ ModelImporter:
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
-    human: []
-    skeleton: []
+    human:
+    - boneName: center
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l momo
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r momo
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l sune
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r sune
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l ashi1
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r ashi1
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hara1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kubi
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: atama
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l kata
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r kata
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l ude1
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r ude1
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l ude2
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r ude2
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l te
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r te
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l byubia1
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r byubia1
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l eye
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r eye
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: c jaw a
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l yubia1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l yubic1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l yubib1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r yubia1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r yubic1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r yubib1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: AnyConv.com__Ham(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hamm_mesh
+      parentName: AnyConv.com__Ham(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kh sk
+      parentName: AnyConv.com__Ham(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: center
+      parentName: kh sk
+      position: {x: 0, y: 0.052044936, z: -0.024579175}
+      rotation: {x: -0.7071068, y: -0.000000055191084, z: -0.000000055191084, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hara1
+      parentName: center
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hara spo
+      parentName: hara1
+      position: {x: -0.000000009611249, y: 0.00891746, z: 0.027152542}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kubi
+      parentName: hara1
+      position: {x: 0.0000000023841857, y: 0.005973382, z: 0.03726716}
+      rotation: {x: 0.6160295, y: 0.04541649, z: -0.0064639775, w: 0.7863862}
+      scale: {x: 1, y: 1, z: 1}
+    - name: atama
+      parentName: kubi
+      position: {x: 0.000000004842877, y: 0.0036738443, z: 0.024034237}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: c jaw a
+      parentName: atama
+      position: {x: 0.0000000023841857, y: -0.01265902, z: 0.011016118}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cd lip
+      parentName: c jaw a
+      position: {x: 0.0000000036507843, y: -0.002581024, z: 0.031742774}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cd teeth
+      parentName: c jaw a
+      position: {x: 0.0000000023841857, y: -0.0023093033, z: 0.02639088}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ld lip
+      parentName: c jaw a
+      position: {x: -0.0076231873, y: -0.002611017, z: 0.026778897}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rd lip
+      parentName: c jaw a
+      position: {x: 0.0076231896, y: -0.0026109696, z: 0.026778879}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cu teeth
+      parentName: atama
+      position: {x: 0.0000000060349703, y: -0.015245156, z: 0.03805236}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l brow a
+      parentName: atama
+      position: {x: -0.0063838926, y: 0.032357343, z: 0.0059016966}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l brow b
+      parentName: atama
+      position: {x: -0.008901788, y: 0.031769805, z: 0.005582726}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l brow c
+      parentName: atama
+      position: {x: -0.011085507, y: 0.031203656, z: 0.0053493427}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l cor a
+      parentName: atama
+      position: {x: -0.011833883, y: -0.01437653, z: 0.029525392}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l eye
+      parentName: atama
+      position: {x: -0.008946272, y: 0.029963316, z: 0.011208956}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r brow a
+      parentName: atama
+      position: {x: 0.0063838903, y: 0.032357402, z: 0.0059016393}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r brow b
+      parentName: atama
+      position: {x: 0.008901794, y: 0.031769812, z: 0.005582669}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r brow c
+      parentName: atama
+      position: {x: 0.011085503, y: 0.031203618, z: 0.005349362}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r cor a
+      parentName: atama
+      position: {x: 0.011833893, y: -0.014376578, z: 0.029525395}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r eye
+      parentName: atama
+      position: {x: 0.008946277, y: 0.029963365, z: 0.011208918}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kubi spo
+      parentName: kubi
+      position: {x: -7.4505804e-11, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: atama spo
+      parentName: kubi spo
+      position: {x: 0.0000005531311, y: 0.0036683558, z: 0.02419155}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l kata
+      parentName: hara1
+      position: {x: -0.015638297, y: -0.017428722, z: 0.017544048}
+      rotation: {x: -0, y: -0.18770188, z: -0.30891824, w: 0.9323827}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l ude1
+      parentName: l kata
+      position: {x: -0.005242823, y: -0.0075794887, z: 0.004605374}
+      rotation: {x: -0.00000038278984, y: -0.05827329, z: -0.0959067, w: 0.99368316}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l ude2
+      parentName: l ude1
+      position: {x: -0.0074654124, y: -0.010792687, z: 0.006557716}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l te
+      parentName: l ude2
+      position: {x: -0.0040853545, y: -0.0059061586, z: 0.0035886334}
+      rotation: {x: 0.23776163, y: -0.20726049, z: -0.07043709, w: 0.9463357}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l yubia1
+      parentName: l te
+      position: {x: -0.00058987614, y: -0.000685541, z: 0.0029735565}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l yubib1
+      parentName: l te
+      position: {x: -0.0039023112, y: -0.00002901256, z: 0.000044510365}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l yubic1
+      parentName: l te
+      position: {x: -0.00562068, y: -0.0015880405, z: -0.0031318807}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l te spo
+      parentName: l ude2
+      position: {x: -0.0040853545, y: -0.0059061586, z: 0.0035886334}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r kata
+      parentName: hara1
+      position: {x: 0.015638346, y: -0.017428698, z: 0.01754406}
+      rotation: {x: -0.000000029802319, y: 0.18770155, z: 0.30891886, w: 0.9323826}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r ude1
+      parentName: r kata
+      position: {x: 0.005242823, y: -0.0075795003, z: 0.0046053645}
+      rotation: {x: -0.0000014316558, y: 0.058273666, z: 0.09590968, w: 0.99368286}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r ude2
+      parentName: r ude1
+      position: {x: 0.007465341, y: -0.01079276, z: 0.0065576667}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r te
+      parentName: r ude2
+      position: {x: 0.0040853787, y: -0.0059061763, z: 0.0035886406}
+      rotation: {x: 0.23776872, y: 0.20726709, z: 0.070438825, w: 0.94633234}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r yubia1
+      parentName: r te
+      position: {x: 0.0005898666, y: -0.0006854528, z: 0.0029735325}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r yubib1
+      parentName: r te
+      position: {x: 0.003902347, y: -0.000028927921, z: 0.00004454732}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r yubic1
+      parentName: r te
+      position: {x: 0.0056207418, y: -0.0015879613, z: -0.0031317954}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r te spo
+      parentName: r ude2
+      position: {x: 0.0040853787, y: -0.0059061763, z: 0.0035886406}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: koshi
+      parentName: center
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cork
+      parentName: koshi
+      position: {x: -0, y: -0.03773457, z: -0.00901005}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l momo
+      parentName: koshi
+      position: {x: -0.022691539, y: -0.024579167, z: -0.03107953}
+      rotation: {x: 0.36364996, y: -0.25631413, z: -0.018182501, w: 0.89539444}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l sune
+      parentName: l momo
+      position: {x: -0.007935665, y: -0.010840868, z: -0.0058922814}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l ashi1
+      parentName: l sune
+      position: {x: -0.004513917, y: -0.0061664367, z: -0.0033516074}
+      rotation: {x: -0.3423804, y: 0.2841019, z: 0.088498645, w: 0.8911957}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l byubia1
+      parentName: l ashi1
+      position: {x: -0.0016269875, y: -0.0027603393, z: 0.0020134926}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l byubib1
+      parentName: l ashi1
+      position: {x: -0.0033604598, y: 0.0003260195, z: -0.00006979465}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l byubic1
+      parentName: l ashi1
+      position: {x: -0.0030137156, y: 0.0016824764, z: -0.003327155}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l ashi1 spo
+      parentName: l sune
+      position: {x: -0.004513917, y: -0.0061664367, z: -0.0033516074}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r momo
+      parentName: koshi
+      position: {x: 0.022691539, y: -0.024579167, z: -0.03107953}
+      rotation: {x: 0.3636498, y: 0.2563142, z: 0.018182497, w: 0.89539456}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r sune
+      parentName: r momo
+      position: {x: 0.007935665, y: -0.010840868, z: -0.0058922814}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r ashi1
+      parentName: r sune
+      position: {x: 0.0045139026, y: -0.0061664227, z: -0.003351593}
+      rotation: {x: -0.34237915, y: -0.28410318, z: -0.08850197, w: 0.8911954}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r byubia1
+      parentName: r ashi1
+      position: {x: 0.0016270255, y: -0.0027603572, z: 0.0020134782}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r byubib1
+      parentName: r ashi1
+      position: {x: 0.0033604477, y: 0.000326007, z: -0.00006974697}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r byubic1
+      parentName: r ashi1
+      position: {x: 0.0030137156, y: 0.0016824662, z: -0.0033271504}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r ashi1 spo
+      parentName: r sune
+      position: {x: 0.0045139026, y: -0.0061664227, z: -0.003351593}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: trans
+      parentName: kh sk
+      position: {x: 0.00087225914, y: 0.0012008583, z: 0.023084652}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: t camera
+      parentName: trans
+      position: {x: -0, y: 5.9999994e-10, z: 0.0039838487}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: x effect
+      parentName: trans
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
