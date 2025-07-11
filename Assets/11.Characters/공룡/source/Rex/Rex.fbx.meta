@@ -282,7 +282,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: hara1
       parentName: center
-      position: {x: -0, y: 0, z: 0}
+      position: {x: 0, y: 0.0408, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: hara2
@@ -292,13 +292,13 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: mune
       parentName: hara2
-      position: {x: -0, y: 0.0067498493, z: 0.031703874}
-      rotation: {x: 0.10537543, y: 0.014429892, z: -0.012968484, w: 0.99424326}
+      position: {x: -0.0006, y: -0.0153, z: 0.0289}
+      rotation: {x: 0.2595772, y: 0.013707661, z: -0.016511152, w: 0.9654839}
       scale: {x: 1, y: 1, z: 1}
     - name: kubi1
       parentName: mune
       position: {x: -0, y: 0.021683836, z: 0.026893377}
-      rotation: {x: 0.47133464, y: 0.003939045, z: -0.0910434, w: 0.87723386}
+      rotation: {x: 0.033625733, y: 0.04388946, z: -0.0798632, w: 0.99527127}
       scale: {x: 1, y: 1, z: 1}
     - name: kubi2
       parentName: kubi1
@@ -398,12 +398,12 @@ ModelImporter:
     - name: l ude2
       parentName: l ude1
       position: {x: -0.0155278705, y: 0, z: -0.0021262264}
-      rotation: {x: -0.000968106, y: 0.006143139, z: -0.009392898, w: 0.9999365}
+      rotation: {x: -0.0017324684, y: 0.030058315, z: -0.027502734, w: 0.9991682}
       scale: {x: 1, y: 1, z: 1}
     - name: l te
       parentName: l ude2
       position: {x: -0.013352203, y: 0, z: 0.00084110256}
-      rotation: {x: 0.002186975, y: -0.0128000965, z: 0.051203635, w: 0.9986038}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: l yubia1
       parentName: l te
@@ -458,12 +458,12 @@ ModelImporter:
     - name: r ude2
       parentName: r ude1
       position: {x: 0.015527846, y: 0, z: -0.0021261978}
-      rotation: {x: 0.0019104109, y: 0.06924226, z: -0.013056626, w: 0.99751264}
+      rotation: {x: 0.00248754, y: 0.08811298, z: -0.039488517, w: 0.9953244}
       scale: {x: 1, y: 1, z: 1}
     - name: r te
       parentName: r ude2
       position: {x: 0.013352119, y: 0, z: 0.0008410835}
-      rotation: {x: 0.0009721294, y: 0.023001391, z: -0.044135213, w: 0.9987603}
+      rotation: {x: 0.000633107, y: 0.027517091, z: -0.04456174, w: 0.99862736}
       scale: {x: 1, y: 1, z: 1}
     - name: r yubia1
       parentName: r te
@@ -512,52 +512,52 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: koshi
       parentName: center
-      position: {x: -0.024276795, y: -0.0021188408, z: -0.045917057}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
+      position: {x: -0, y: 0.1033, z: -0}
+      rotation: {x: 0.59224236, y: 0.0000000037252899, z: 0.0000000018626449, w: 0.80575997}
       scale: {x: 1, y: 1, z: 1}
     - name: l momo
       parentName: koshi
-      position: {x: -0.04468785, y: 0.00929799, z: 0.003138243}
-      rotation: {x: 0.81816065, y: -0.24126717, z: -0.16406122, w: 0.49546677}
+      position: {x: -0.0348, y: -0.0032, z: -0.0203}
+      rotation: {x: 0.20683569, y: -0.04147442, z: -0.28802502, w: 0.9340988}
       scale: {x: 1, y: 1, z: 1}
     - name: l sune
       parentName: l momo
-      position: {x: -0.0023729897, y: -0.026391705, z: 0.02338916}
+      position: {x: 0.0283, y: -0.0465, z: 0.0377}
       rotation: {x: -0.14860493, y: 0.027276099, z: -0.008111969, w: 0.9884872}
       scale: {x: 1, y: 1, z: 1}
     - name: l ashi1
       parentName: l sune
       position: {x: -0.0075376127, y: -0.043482594, z: -0.008124938}
-      rotation: {x: -0.7415446, y: 0.1939579, z: 0.17972885, w: 0.6165951}
+      rotation: {x: -0.71650505, y: 0.17980549, z: 0.19308946, w: 0.64576083}
       scale: {x: 1, y: 1, z: 1}
     - name: r momo
       parentName: koshi
-      position: {x: 0.044687804, y: 0.009298019, z: 0.0031382442}
-      rotation: {x: 0.8758824, y: 0.11440995, z: 0.04023291, w: 0.46703517}
+      position: {x: 0.0417, y: -0.0122, z: -0.0181}
+      rotation: {x: -0.29062915, y: -0.000000028178118, z: 0.000000010798598, w: 0.95683587}
       scale: {x: 1, y: 1, z: 1}
     - name: r sune
       parentName: r momo
-      position: {x: 0.0023729943, y: -0.026391735, z: 0.023389125}
-      rotation: {x: -0.15559351, y: -0.02495014, z: -0.016081892, w: 0.98737514}
+      position: {x: -0.0216, y: -0.0575, z: -0.0036}
+      rotation: {x: 0.3630576, y: 0.13134101, z: -0.07858468, w: 0.91911}
       scale: {x: 1, y: 1, z: 1}
     - name: r ashi1
       parentName: r sune
       position: {x: 0.00753757, y: -0.043482594, z: -0.008124952}
-      rotation: {x: -0.7913206, y: -0.10913879, z: -0.028162204, w: 0.60092205}
+      rotation: {x: -0.54195875, y: 0.000000014901158, z: 0.000000014901158, w: 0.8404051}
       scale: {x: 1, y: 1, z: 1}
     - name: tail1
       parentName: koshi
-      position: {x: 0.0011108526, y: -0.007432127, z: -0.054124545}
-      rotation: {x: 0.0073831975, y: 0.0043154377, z: -0.0013979897, w: 0.9999625}
+      position: {x: 0.0153, y: 0.0068, z: -0.0681}
+      rotation: {x: -0.010315798, y: 0.05744335, z: 0.978948, w: -0.1955885}
       scale: {x: 1, y: 1, z: 1}
     - name: tail2
       parentName: tail1
-      position: {x: -0.000106458065, y: -0.016600389, z: -0.051806085}
+      position: {x: 0.0015, y: 0.0154, z: -0.0417}
       rotation: {x: 0.15328203, y: 0.06271669, z: -0.014634779, w: 0.9860817}
       scale: {x: 1, y: 1, z: 1}
     - name: tail3
       parentName: tail2
-      position: {x: 0.0064568063, y: -0.025442995, z: -0.041407347}
+      position: {x: 0.0261, y: 0.006, z: -0.0498}
       rotation: {x: -0.16916098, y: -0.08454355, z: -0.05720835, w: 0.98028785}
       scale: {x: 1, y: 1, z: 1}
     - name: tail4
