@@ -1,0 +1,1067 @@
+fileFormatVersion: 2
+guid: 6d62c8e9ea004b946ac96427c8d8ec94
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: center
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l momo
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r momo
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l sune
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r sune
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l ashi1
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r ashi1
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hara1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hara2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kubi
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: atama
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l kata
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r kata
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l ude1
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r ude1
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l ude2
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r ude2
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l te
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r te
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l ashi2
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r ashi2
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l cor a
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r cor a
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: c jaw a
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l yubib1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l yubib2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l yubib3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l yubia1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l yubia2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l yubia3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l yubic1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l yubic2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l yubic3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l yubid1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l yubid2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l yubid3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l yubie1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l yubie2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l yubie3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r yubib1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r yubib2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r yubib3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r yubia1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r yubia2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r yubia3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r yubic1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r yubic2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r yubic3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r yubid1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r yubid2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r yubid3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r yubie1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r yubie2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r yubie3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mune
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: AnyConv.com__Toy Solider(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kh sk
+      parentName: AnyConv.com__Toy Solider(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: center
+      parentName: kh sk
+      position: {x: -0, y: 0.022365885, z: 0.0011701367}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: c base
+      parentName: center
+      position: {x: -0, y: -0.022365885, z: -0.0011701367}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l base
+      parentName: c base
+      position: {x: -0.0067599737, y: 0.00021493502, z: 0.00093219604}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r base
+      parentName: c base
+      position: {x: 0.008845203, y: 0.00019865039, z: 0.0010485451}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hara1
+      parentName: center
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bottle spo
+      parentName: hara1
+      position: {x: -0.0020169327, y: 0.0013813019, z: -0.0016759258}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bottle
+      parentName: bottle spo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gun spo
+      parentName: hara1
+      position: {x: 0.0036199328, y: 0.0012780142, z: -0.00078958925}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gun
+      parentName: gun spo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hara2
+      parentName: hara1
+      position: {x: -0, y: 0.0028556632, z: 0.00018380812}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mune
+      parentName: hara2
+      position: {x: -0, y: 0.0028618956, z: 0.000015943198}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kubi
+      parentName: mune
+      position: {x: -0, y: 0.00588099, z: -0.00020461403}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: atama
+      parentName: kubi
+      position: {x: -0, y: 0.0030361388, z: 0.00020829252}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: c jaw a
+      parentName: atama
+      position: {x: -0, y: -0.00010358095, z: 0.00021288678}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cd lip
+      parentName: c jaw a
+      position: {x: -0, y: -0.00025342463, z: 0.0026016468}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ld lip
+      parentName: c jaw a
+      position: {x: -0.0005013436, y: -0.0002036333, z: 0.0024061254}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rd lip
+      parentName: c jaw a
+      position: {x: 0.0005013436, y: -0.0002036333, z: 0.002406124}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: cu lip
+      parentName: atama
+      position: {x: -0, y: -0.00023210049, z: 0.0028261428}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l cor a
+      parentName: atama
+      position: {x: -0.00085027557, y: -0.00024017334, z: 0.0023448165}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lu lip
+      parentName: atama
+      position: {x: -0.0004679943, y: -0.00021483659, z: 0.0026414995}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r cor a
+      parentName: atama
+      position: {x: 0.000850273, y: -0.00023963212, z: 0.002345234}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ru lip
+      parentName: atama
+      position: {x: 0.0004679943, y: -0.00021488905, z: 0.0026415014}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l kata
+      parentName: mune
+      position: {x: -0.0012901817, y: 0.003666148, z: -0.00019765392}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l ude1
+      parentName: l kata
+      position: {x: -0.0032228339, y: 0.0005282497, z: -0.00001837857}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l kata a spo
+      parentName: l ude1
+      position: {x: 0.00000056207176, y: -0.00000009059906, z: 0.000000003427267}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l kata b spo
+      parentName: l ude1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l ude1 spo
+      parentName: l ude1
+      position: {x: -0.003038593, y: 0.0000000166893, z: 3.72529e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l ude2
+      parentName: l ude1
+      position: {x: -0.0060771713, y: 0, z: 0}
+      rotation: {x: -1.5384696e-10, y: -0.003980678, z: -0.0008212412, w: 0.9999918}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l hiji spo
+      parentName: l ude2
+      position: {x: -0.0000000023841857, y: -0.0000000023841857, z: -3.72529e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l te
+      parentName: l ude2
+      position: {x: -0.0059277285, y: 0, z: 0}
+      rotation: {x: -4.7196164e-10, y: -0, z: 0.032058064, w: 0.999486}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l buki
+      parentName: l te
+      position: {x: 0.015108361, y: -0.032721423, z: 0.0012434806}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l yubia1
+      parentName: l te
+      position: {x: -0.00021811842, y: -0.000113131995, z: 0.0005483753}
+      rotation: {x: -0.11949301, y: -0.4163823, z: -0.22609009, w: 0.8724852}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l yubia2
+      parentName: l yubia1
+      position: {x: -0.00055729266, y: -0.0002297473, z: 0.0006276756}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l yubia3
+      parentName: l yubia2
+      position: {x: -0.00041327474, y: -0.00020421982, z: 0.00055490434}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l yubib1
+      parentName: l te
+      position: {x: -0.0018088972, y: 0.00039991378, z: 0.0007588648}
+      rotation: {x: 0.02877507, y: 0.37989855, z: -0.08432466, w: 0.9207272}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l yubib2
+      parentName: l yubib1
+      position: {x: -0.00077292084, y: 0.000026383399, z: -0.000022688508}
+      rotation: {x: 0.000630782, y: 0.0055131465, z: -0.0150775, w: 0.999871}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l yubib3
+      parentName: l yubib2
+      position: {x: -0.00054727437, y: -0.000039949417, z: -0.000037502945}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l yubic1
+      parentName: l te
+      position: {x: -0.0018858444, y: 0.0004362583, z: 0.00023104838}
+      rotation: {x: 0.0023363582, y: -0.022590766, z: -0.09207586, w: 0.99549294}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l yubic2
+      parentName: l yubic1
+      position: {x: -0.0009952044, y: 0.000009169578, z: 0.000003325343}
+      rotation: {x: -0.00021801195, y: -0.0052291844, z: -0.050832756, w: 0.9986935}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l yubic3
+      parentName: l yubic2
+      position: {x: -0.0006732213, y: -0.000115811825, z: 0.000014800727}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l yubid1
+      parentName: l te
+      position: {x: -0.0018341696, y: 0.0004085183, z: -0.0002803111}
+      rotation: {x: -0.0010877816, y: -0.04424935, z: -0.10852665, w: 0.9931076}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l yubid2
+      parentName: l yubid1
+      position: {x: -0.00095858215, y: -0.000019154548, z: 0.00004425332}
+      rotation: {x: -0.0029661634, y: -0.006154352, z: -0.06691512, w: 0.99773526}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l yubid3
+      parentName: l yubid2
+      position: {x: -0.00065939187, y: -0.00015497922, z: 0.000043482778}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l yubie1
+      parentName: l te
+      position: {x: -0.0016942751, y: 0.00020856141, z: -0.00077890605}
+      rotation: {x: -0.0067242756, y: -0.06075252, z: -0.09157959, w: 0.99392}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l yubie2
+      parentName: l yubie1
+      position: {x: -0.0008048892, y: 0.00001664877, z: 0.00006299946}
+      rotation: {x: -0.0077137556, y: -0.007531477, z: -0.09656202, w: 0.9952686}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l yubie3
+      parentName: l yubie2
+      position: {x: -0.00046336532, y: -0.00011739969, z: 0.00004617229}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l te spo
+      parentName: l ude2
+      position: {x: -0.0059277285, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l ude2 spo
+      parentName: l ude2
+      position: {x: -0.0029634428, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l mune spo
+      parentName: mune
+      position: {x: -0.0022565061, y: 0.002097199, z: -0.00010801643}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r kata
+      parentName: mune
+      position: {x: 0.0012901817, y: 0.003666148, z: -0.00019765392}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r ude1
+      parentName: r kata
+      position: {x: 0.0032228339, y: 0.0005282497, z: -0.00001837857}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r kata a spo
+      parentName: r ude1
+      position: {x: -0.0000005623698, y: -0.00000009298324, z: 0.0000000036507843}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r kata b spo
+      parentName: r kata a spo
+      position: {x: 0.0000005617738, y: 0.00000009059906, z: -0.0000000040233132}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r ude1 spo
+      parentName: r ude1
+      position: {x: 0.003038593, y: 0.0000000166893, z: 3.72529e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r ude2
+      parentName: r ude1
+      position: {x: 0.0060771713, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r hiji spo
+      parentName: r ude2
+      position: {x: 0.0000000023841857, y: -0.0000000023841857, z: -3.72529e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r te
+      parentName: r ude2
+      position: {x: 0.0059277285, y: 0, z: 0}
+      rotation: {x: -0.0000000060390786, y: 5.0790905e-10, z: -0.032036826, w: 0.99948674}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r buki
+      parentName: r te
+      position: {x: -0.015108366, y: -0.032721423, z: 0.0012434836}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r yubia1
+      parentName: r te
+      position: {x: 0.00021816969, y: -0.00011319637, z: 0.00054837443}
+      rotation: {x: -0.090970725, y: 0.2936279, z: 0.18820164, w: 0.9327847}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r yubia2
+      parentName: r yubia1
+      position: {x: 0.00055722834, y: -0.00022967339, z: 0.00062767696}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r yubia3
+      parentName: r yubia2
+      position: {x: 0.00041328787, y: -0.00020422935, z: 0.0005549039}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r yubib1
+      parentName: r te
+      position: {x: 0.0018089103, y: 0.00039995194, z: 0.0007588675}
+      rotation: {x: 0.0152773885, y: -0.3945915, z: 0.06164257, w: 0.9166593}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r yubib2
+      parentName: r yubib1
+      position: {x: 0.0007728934, y: 0.000026383399, z: -0.000022689848}
+      rotation: {x: 0.00063135655, y: -0.0055153067, z: 0.015093384, w: 0.99987066}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r yubib3
+      parentName: r yubib2
+      position: {x: 0.0005473411, y: -0.000039975643, z: -0.000037504135}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r yubic1
+      parentName: r te
+      position: {x: 0.0018858969, y: 0.00043619392, z: 0.000231046}
+      rotation: {x: 0.00006079614, y: -0.01984731, z: 0.03697353, w: 0.9991192}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r yubic2
+      parentName: r yubic1
+      position: {x: 0.0009951519, y: 0.000009248257, z: 0.0000033281742}
+      rotation: {x: -0.00021876144, y: 0.005230346, z: 0.050873928, w: 0.9986913}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r yubic3
+      parentName: r yubic2
+      position: {x: 0.00067323324, y: -0.00011580467, z: 0.000014801025}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r yubid1
+      parentName: r te
+      position: {x: 0.001834222, y: 0.00040854453, z: -0.00028031148}
+      rotation: {x: -0.0023763706, y: -0.013812926, z: 0.045474414, w: 0.99886715}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r yubid2
+      parentName: r yubid1
+      position: {x: 0.00095850346, y: -0.000019221305, z: 0.000044250934}
+      rotation: {x: -0.0029623702, y: 0.006152654, z: 0.06683938, w: 0.9977404}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r yubid3
+      parentName: r yubid2
+      position: {x: 0.00065939303, y: -0.00015492678, z: 0.00004348591}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r yubie1
+      parentName: r te
+      position: {x: 0.0016943538, y: 0.00020857334, z: -0.00077890686}
+      rotation: {x: -0.0016405643, y: -0.0046604094, z: 0.022189388, w: 0.9997416}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r yubie2
+      parentName: r yubie1
+      position: {x: 0.0008047962, y: 0.00001666069, z: 0.00006300229}
+      rotation: {x: -0.0077176997, y: 0.0075270473, z: 0.09659626, w: 0.99526525}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r yubie3
+      parentName: r yubie2
+      position: {x: 0.0004633689, y: -0.00011742353, z: 0.000046171433}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r te spo
+      parentName: r ude2
+      position: {x: 0.0059277285, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r ude2 spo
+      parentName: r ude2
+      position: {x: 0.00296347, y: 0.000000030994414, z: 9.685754e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r mune spo
+      parentName: mune
+      position: {x: 0.0022565126, y: 0.002097175, z: -0.00010801717}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: koshi spo
+      parentName: hara1
+      position: {x: -0, y: -0.022809345, z: 0.00051171356}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pouch1 spo
+      parentName: hara1
+      position: {x: -0.0034617882, y: 0.0017137956, z: 0.0003828033}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pouch1
+      parentName: pouch1 spo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pouch2 spo
+      parentName: hara1
+      position: {x: 0.0029397123, y: 0.0015794801, z: 0.0015045508}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pouch2
+      parentName: pouch2 spo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: koshi
+      parentName: center
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l mata spo
+      parentName: koshi
+      position: {x: -0.0024702968, y: -0.0015721273, z: -0.00019293814}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l momo
+      parentName: koshi
+      position: {x: -0.0024702968, y: -0.0015721273, z: -0.00019293814}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l hiza spo
+      parentName: l momo
+      position: {x: -0, y: -0.009313538, z: -0.0001463317}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l momo spo
+      parentName: l momo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l sune
+      parentName: l momo
+      position: {x: -0, y: -0.009313538, z: -0.0001463317}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l ashi1
+      parentName: l sune
+      position: {x: -0, y: -0.0087384265, z: -0.0016205905}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l ashi2
+      parentName: l ashi1
+      position: {x: -0, y: -0.0015469217, z: 0.0033046096}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l shiri spo
+      parentName: koshi
+      position: {x: -0.0024702968, y: -0.0015721273, z: -0.00019293814}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r mata spo
+      parentName: koshi
+      position: {x: 0.0024702968, y: -0.0015721273, z: -0.00019293814}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r momo
+      parentName: koshi
+      position: {x: 0.0024702945, y: -0.0015721774, z: -0.00019294}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r hiza spo
+      parentName: r momo
+      position: {x: -0, y: -0.009313546, z: -0.00014633186}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r momo spo
+      parentName: r momo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r sune
+      parentName: r momo
+      position: {x: -0, y: -0.009313486, z: -0.0001463297}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r ashi1
+      parentName: r sune
+      position: {x: -0, y: -0.008738427, z: -0.0016205907}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r ashi2
+      parentName: r ashi1
+      position: {x: -0, y: -0.0015469235, z: 0.0033046082}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r shiri spo
+      parentName: koshi
+      position: {x: 0.0024702968, y: -0.0015721273, z: -0.00019293814}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: trans
+      parentName: kh sk
+      position: {x: -0, y: -0.0004139614, z: -0.000016839824}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: t camera
+      parentName: trans
+      position: {x: -0, y: -0.000029498498, z: 0.00169869}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: x effect
+      parentName: trans
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Toy Soilder_mesh
+      parentName: AnyConv.com__Toy Solider(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
