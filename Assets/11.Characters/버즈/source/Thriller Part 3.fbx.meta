@@ -80,7 +80,7 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human:
-    - boneName: buzzbip Pelvis
+    - boneName: buzzbip
       humanName: Hips
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -136,7 +136,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: buzzbip Spine
+    - boneName: buzzbip Pelvis
       humanName: Spine
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -144,7 +144,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: buzzbip Spine1
+    - boneName: buzzbip Spine
       humanName: Chest
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -312,6 +312,14 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
+    - boneName: buzzbip Spine1
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
     skeleton:
     - name: Thriller Part 3(Clone)
       parentName: 
@@ -335,7 +343,7 @@ ModelImporter:
       scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
     - name: buzzbip Pelvis
       parentName: buzzbip
-      position: {x: -0.00036200616, y: -0.000009596052, z: -0.000031177737}
+      position: {x: -0.000127, y: -0.00001, z: -0.000031}
       rotation: {x: 0.5, y: -0.5, z: -0.5, w: -0.5}
       scale: {x: 1.0000001, y: 1, z: 1.0000002}
     - name: buzzbip Spine
