@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Splines;
 
 public class AnimationEvent : MonoBehaviour
 {
@@ -7,14 +8,9 @@ public class AnimationEvent : MonoBehaviour
     [SerializeField] private float _bigHeadSize = 2.0f;
 
     [Header("Characters")]
-    [SerializeField] private MovableObject _trainAndHamm;
-    [SerializeField] private MovableObject _rex;
-
-    private void Update()
-    {
-        UpdateMovement(_trainAndHamm);
-        UpdateMovement(_rex);
-    }
+    [SerializeField] private SplineAnimate _trainAndHammSplineAnimate;
+    [SerializeField] private SplineAnimate _rexSplineAnimate;
+    [SerializeField] private SplineAnimate _bearSplineAnimate;
 
     public void BigHead()
     {
@@ -26,26 +22,18 @@ public class AnimationEvent : MonoBehaviour
         _headObj.transform.localScale = new Vector3(1f, 1f, 1f);
     }
 
-    private void UpdateMovement(MovableObject movable)
-    {
-        if (!movable.isMoving || movable.obj == null) return;
-
-        Transform Object = movable.obj.transform;
-        Object.position = Vector3.MoveTowards(Object.position, movable.goalPos.position, movable.speed * Time.deltaTime);
-
-        if (Vector3.Distance(Object.position, movable.goalPos.position) < 0.1f)
-        {
-            movable.isMoving = false;
-        }
-    }
-
     public void MoveTrain()
     {
-        _trainAndHamm.isMoving = true;
+        _trainAndHammSplineAnimate.Play();
     }
 
     public void MoveRex()
     {
-        _rex.isMoving = true;
+        _rexSplineAnimate.Play();
+    }
+
+    public void MoveBear()
+    {
+        _bearSplineAnimate.Play();
     }
 }
