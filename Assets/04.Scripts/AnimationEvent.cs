@@ -11,7 +11,8 @@ public class AnimationEvent : MonoBehaviour
     [SerializeField] private SplineAnimate _trainAndHammSplineAnimate;
     [SerializeField] private SplineAnimate _rexSplineAnimate;
     [SerializeField] private SplineAnimate _bearSplineAnimate;
-
+    [SerializeField] private UFOMoveMentAnimation _ufoMoveMentAnimation;
+    
     public void BigHead()
     {
         _headObj.transform.localScale = new Vector3(_bigHeadSize, _bigHeadSize, _bigHeadSize);
@@ -36,4 +37,10 @@ public class AnimationEvent : MonoBehaviour
     {
         _bearSplineAnimate.Play();
     }
+
+    public void MoveUFO()
+    {
+        _ufoMoveMentAnimation.Play();
+    }
+
 }

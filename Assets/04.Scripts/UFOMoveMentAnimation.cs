@@ -11,7 +11,7 @@ public class UFOMoveMentAnimation : MonoBehaviour
 
     [SerializeField] private UFOLightAnimation ufoLightAnim;
 
-    public void PlaySplineMove()
+    public void Play()
     {
         StartCoroutine(MoveAlongSplineWithStops());
     }
