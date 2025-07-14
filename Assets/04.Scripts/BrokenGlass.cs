@@ -46,6 +46,7 @@ public class BrokenGlass : MonoBehaviour
         {
             Vector3 randomDir = (-forward + Random.insideUnitSphere * _spread).normalized;
             rb.AddForce(randomDir * _explosionForce, ForceMode.Impulse);
+            rb.useGravity = true;
             Destroy(rb.gameObject, 2f);
         }
     }
