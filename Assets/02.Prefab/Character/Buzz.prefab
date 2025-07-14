@@ -58,14 +58,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 317836323893365187}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.04514511, z: -0, w: 0.99898046}
+  m_LocalRotation: {x: 0.00871766, y: 0.045143325, z: -0.0003939608, w: 0.9989424}
   m_LocalPosition: {x: 0.0048299995, y: 0.02369, z: 0.01065}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 857584156565513976}
   m_Father: {fileID: 8060542724960401703}
-  m_LocalEulerAnglesHint: {x: 0, y: 5.175, z: 0}
+  m_LocalEulerAnglesHint: {x: 1, y: 5.175, z: 0}
 --- !u!1 &644220727448840049
 GameObject:
   m_ObjectHideFlags: 0
@@ -331,7 +331,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lineRenderer: {fileID: 8930807002612944477}
   laserDuration: 1
-  laserLength: 10
+  laserLength: 15
   firePoint: {fileID: 6198304954440730328}
 --- !u!1 &2778728770728803560
 GameObject:
