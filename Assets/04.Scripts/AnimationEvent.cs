@@ -3,6 +3,9 @@ using UnityEngine.Splines;
 
 public class AnimationEvent : MonoBehaviour
 {
+    [Header("Door")]
+    [SerializeField] private DoorAnimator _door;
+    
     [Header("Woody")]
     [SerializeField] private GameObject _headObj;
     [SerializeField] private float _bigHeadSize = 2.0f;
@@ -15,6 +18,18 @@ public class AnimationEvent : MonoBehaviour
     [SerializeField] private SplineAnimate _solider1Animate;
     [SerializeField] private SplineAnimate _solider2Animate;
     [SerializeField] private SplineAnimate _solider3Animate;
+    [SerializeField] private BuzzAnimation _buzzAnimation;
+
+    public void DoorOpen()
+    {
+        _door.OpenDoors();
+    }
+
+    public void DoorClose()
+    {
+        _door.CloseDoors();
+    }
+    
     public void BigHead()
     {
         _headObj.transform.localScale = new Vector3(_bigHeadSize, _bigHeadSize, _bigHeadSize);
@@ -50,6 +65,11 @@ public class AnimationEvent : MonoBehaviour
         _solider1Animate.Play();
         _solider2Animate.Play();
         _solider3Animate.Play();
+    }
+
+    public void MoveBuzz()
+    {
+        _buzzAnimation.MoveBuzz();
     }
 
 }
