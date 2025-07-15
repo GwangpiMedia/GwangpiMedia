@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.Splines;
 
@@ -10,7 +11,8 @@ public class UFOMoveMentAnimation : MonoBehaviour
     [SerializeField] private float stopDelay = 5f;
 
     [SerializeField] private UFOLightAnimation ufoLightAnim;
-
+    
+    [SerializeField] private int animationKnotIndex = 1;
     [SerializeField] private GameObject[] aliens;
 
     public void Play()
@@ -20,49 +22,54 @@ public class UFOMoveMentAnimation : MonoBehaviour
 
     private IEnumerator MoveAlongSplineWithStops()
     {
-        float step = 1f / (stopCount + 1);
-        
-        for (int i = 0; i <= stopCount; i++)
+        Spline spline = splineContainer.Spline;
+        var knots = spline.Knots.ToArray();
+
+        if (animationKnotIndex >= knots.Length)
         {
-            float startT = i * step;
-            float endT = (i + 1) * step;
-            float t = startT;
-            float travelTime = duration * step;
+            yield break;
+        }
 
-            while (t < endT)
+        Vector3 animKnotLocal = knots[animationKnotIndex].Position;
+        Vector3 animKnotWorld = splineContainer.transform.TransformPoint(animKnotLocal);
+        bool animPlayed = false;
+
+        float t = 0f;
+        while (t < 1f)
+        {
+            t += Time.deltaTime / duration;
+
+            Vector3 localPos = spline.EvaluatePosition(t);
+            Vector3 worldPos = splineContainer.transform.TransformPoint(localPos);
+            transform.position = worldPos;
+
+            Vector3 localTangent = spline.EvaluateTangent(t);
+            Vector3 worldTangent = splineContainer.transform.TransformDirection(localTangent);
+            transform.forward = worldTangent.normalized;
+
+            if (!animPlayed && Vector3.Distance(worldPos, animKnotWorld) < 0.2f)
             {
-                t += Time.deltaTime / travelTime;
+                animPlayed = true;
 
-                Vector3 localPos = splineContainer.Spline.EvaluatePosition(t);
-                Vector3 worldPos = splineContainer.transform.TransformPoint(localPos);
-                transform.position = worldPos;
-
-                Vector3 localTangent = splineContainer.Spline.EvaluateTangent(t);
-                Vector3 worldTangent = splineContainer.transform.TransformDirection(localTangent);
-                transform.forward = worldTangent.normalized;
-
-                yield return null;
-            }
-
-            if (i < stopCount)
-            {
                 if (ufoLightAnim != null)
                 {
                     ufoLightAnim.DownLight();
 
                     yield return new WaitForSeconds(stopDelay - 1.5f);
-                    
+
                     foreach (GameObject alien in aliens)
                     {
                         if (alien != null)
                             StartCoroutine(FadeIn(alien, 3f));
                     }
-                    
+
                     ufoLightAnim.UpLight();
-                    
+
                     yield return new WaitForSeconds(stopDelay);
                 }
             }
+
+            yield return null;
         }
     }
     

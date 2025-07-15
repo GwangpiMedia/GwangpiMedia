@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Splines;
 
@@ -6,9 +7,13 @@ public class AnimationEvent : MonoBehaviour
     [Header("Door")]
     [SerializeField] private DoorAnimator _door;
     
-    [Header("Woody")]
-    [SerializeField] private GameObject _headObj;
-    [SerializeField] private float _bigHeadSize = 2.0f;
+    [Header("Woody")] 
+    [SerializeField] private Transform _headObj;
+    [SerializeField] private float _bigHeadSize = 2f;
+    [SerializeField] private float _normalHeadSize = 1f;
+    [SerializeField] private float _scaleDuration = 0.5f;
+                     
+    private Coroutine _scalingCoroutine;
 
     [Header("Characters")]
     [SerializeField] private SplineAnimate _trainAndHammSplineAnimate;
@@ -29,17 +34,6 @@ public class AnimationEvent : MonoBehaviour
     {
         _door.CloseDoors();
     }
-    
-    public void BigHead()
-    {
-        _headObj.transform.localScale = new Vector3(_bigHeadSize, _bigHeadSize, _bigHeadSize);
-    }
-
-    public void NormalHead()
-    {
-        _headObj.transform.localScale = new Vector3(1f, 1f, 1f);
-    }
-
     public void MoveTrain()
     {
         _trainAndHammSplineAnimate.Play();
@@ -71,5 +65,34 @@ public class AnimationEvent : MonoBehaviour
     {
         _buzzAnimation.MoveBuzz();
     }
+    
+    public void BigHead()
+    {
+        if (_scalingCoroutine != null) StopCoroutine(_scalingCoroutine);
+        _scalingCoroutine = StartCoroutine(ScaleHead(Vector3.one * _bigHeadSize, _scaleDuration));
+    }
+    
+    public void NormalHead()
+    {
+        if (_scalingCoroutine != null) StopCoroutine(_scalingCoroutine);
+        _scalingCoroutine = StartCoroutine(ScaleHead(Vector3.one * _normalHeadSize, _scaleDuration));
+    }
+    
 
+    private IEnumerator ScaleHead(Vector3 targetScale, float duration)
+    {
+        Vector3 startScale = _headObj.localScale;
+        float elapsed = 0f;
+    
+        while (elapsed < duration)
+        {
+            elapsed += Time.deltaTime;
+            float t = Mathf.Clamp01(elapsed / duration);
+            _headObj.localScale = Vector3.Lerp(startScale, targetScale, t);
+            yield return null;
+        }
+    
+        _headObj.localScale = targetScale;
+    }
+    
 }
