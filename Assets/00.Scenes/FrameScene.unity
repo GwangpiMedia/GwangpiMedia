@@ -5521,13 +5521,13 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1295751828}
   - {fileID: 2088457518}
   - {fileID: 1883454088}
   - {fileID: 42674098}
   - {fileID: 1899956029}
   - {fileID: 1236067261}
   - {fileID: 776165149}
+  - {fileID: 1875913832}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1501607637 stripped
@@ -5970,15 +5970,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 941629319722459379, guid: 7c1c2aacb81d42d48964884c93c76351, type: 3}
       propertyPath: m_LocalScale.x
-      value: 30
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 941629319722459379, guid: 7c1c2aacb81d42d48964884c93c76351, type: 3}
       propertyPath: m_LocalScale.y
-      value: 30
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 941629319722459379, guid: 7c1c2aacb81d42d48964884c93c76351, type: 3}
       propertyPath: m_LocalScale.z
-      value: 30
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 941629319722459379, guid: 7c1c2aacb81d42d48964884c93c76351, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6038,7 +6038,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6629425309866274435, guid: 7c1c2aacb81d42d48964884c93c76351, type: 3}
       propertyPath: stopDelay
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6629425309866274435, guid: 7c1c2aacb81d42d48964884c93c76351, type: 3}
       propertyPath: ufoLightAnim
@@ -6406,6 +6406,39 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2519625599266829892, guid: 808d8dd92dbd660469092224b376b9c7, type: 3}
   m_PrefabInstance: {fileID: 531956536}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1875913831
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1875913832}
+  m_Layer: 0
+  m_Name: WoodySet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1875913832
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875913831}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1295751828}
+  - {fileID: 1924035110636834339}
+  m_Father: {fileID: 1497068048}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1883454087
 GameObject:
   m_ObjectHideFlags: 0
@@ -7699,8 +7732,9 @@ GameObject:
   - component: {fileID: 1924035110636834339}
   - component: {fileID: 3250561165912981894}
   - component: {fileID: 790565772156777804}
+  - component: {fileID: 3250561165912981895}
   m_Layer: 0
-  m_Name: ChildrenChair
+  m_Name: Chair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7983,12 +8017,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1294885024164943001}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 1.133, y: -0, z: -2.417}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.32791638, y: -1.589, z: 6.138}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1875913832}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2058878706498392247
 Transform:
@@ -8303,6 +8337,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Frame
       objectReference: {fileID: 0}
+    - target: {fileID: 8903487630926965836, guid: 11c9e783f58325645b3a842acc5a7ad7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -8402,13 +8440,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1294885024164943001}
   m_Mesh: {fileID: -3603173157935367975, guid: e76f00f32e3728e4a82078244ad96e4f, type: 3}
+--- !u!114 &3250561165912981895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294885024164943001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16754c14e8ef22e469c55f7221e5a612, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  endEulerAngles: {x: 0, y: 0, z: 0}
+  moveOffset: {x: 0, y: 0, z: -0.5}
+  rotateDuration: 0.3
 --- !u!1001 &3394519035516890892
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1497068048}
+    m_TransformParent: {fileID: 1875913832}
     m_Modifications:
     - target: {fileID: 1307081556396152448, guid: 2e08aefdcc9bae340b2a608d4b56693a, type: 3}
       propertyPath: mainCamera
@@ -8418,6 +8471,14 @@ PrefabInstance:
       propertyPath: _originalGlass
       value: 
       objectReference: {fileID: 6394401950531484330}
+    - target: {fileID: 2434199058313607519, guid: 2e08aefdcc9bae340b2a608d4b56693a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.10000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 2434199058313607519, guid: 2e08aefdcc9bae340b2a608d4b56693a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.10000001
+      objectReference: {fileID: 0}
     - target: {fileID: 2434199058313607519, guid: 2e08aefdcc9bae340b2a608d4b56693a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.32791638
@@ -8498,6 +8559,10 @@ PrefabInstance:
       propertyPath: _buzzAnimation
       value: 
       objectReference: {fileID: 2135875054}
+    - target: {fileID: 8228747223695583384, guid: 2e08aefdcc9bae340b2a608d4b56693a, type: 3}
+      propertyPath: _chairAnimation
+      value: 
+      objectReference: {fileID: 3250561165912981895}
     - target: {fileID: 8228747223695583384, guid: 2e08aefdcc9bae340b2a608d4b56693a, type: 3}
       propertyPath: _solider1Animate
       value: 
@@ -10263,4 +10328,3 @@ SceneRoots:
   - {fileID: 223421462}
   - {fileID: 543450652250010716}
   - {fileID: 1497068048}
-  - {fileID: 1924035110636834339}

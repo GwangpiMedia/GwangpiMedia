@@ -7,7 +7,6 @@ public class UFOMoveMentAnimation : MonoBehaviour
 {
     [SerializeField] private SplineContainer splineContainer;
     [SerializeField] private float duration = 5f;
-    [SerializeField] private int stopCount = 1;
     [SerializeField] private float stopDelay = 5f;
 
     [SerializeField] private UFOLightAnimation ufoLightAnim;

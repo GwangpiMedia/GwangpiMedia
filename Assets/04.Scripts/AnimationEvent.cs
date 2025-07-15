@@ -24,6 +24,7 @@ public class AnimationEvent : MonoBehaviour
     [SerializeField] private SplineAnimate _solider2Animate;
     [SerializeField] private SplineAnimate _solider3Animate;
     [SerializeField] private BuzzAnimation _buzzAnimation;
+    [SerializeField] private ChairAnimation _chairAnimation;
 
     public void DoorOpen()
     {
@@ -65,7 +66,12 @@ public class AnimationEvent : MonoBehaviour
     {
         _buzzAnimation.MoveBuzz();
     }
-    
+
+    public void MoveChair()
+    {
+        _chairAnimation.KnockOverChair();
+    }
+
     public void BigHead()
     {
         if (_scalingCoroutine != null) StopCoroutine(_scalingCoroutine);
