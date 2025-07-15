@@ -21,7 +21,7 @@ public class BrokenGlass : MonoBehaviour
         {
             return;
         }
-
+        SoundManager.Instance.PlaySFX("CrackedWindow");
         _originalGlass.SetActive(false);
         _brokenInstance = Instantiate(_brokenGlassPrefab);
 
@@ -33,6 +33,7 @@ public class BrokenGlass : MonoBehaviour
         {
             return;
         }
+        SoundManager.Instance.PlaySFX("BreakingGlass");
         ExplodeShards();
     }
 

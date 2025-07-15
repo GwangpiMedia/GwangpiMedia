@@ -17,6 +17,7 @@ public class LazerAnImation : MonoBehaviour
 
     private IEnumerator FireLaser()
     {
+        SoundManager.Instance.PlaySFX("Laser");
         Vector3 start = firePoint.position;
         Vector3 end = firePoint.position + firePoint.forward * laserLength;
 

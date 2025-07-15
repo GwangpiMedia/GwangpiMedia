@@ -100,5 +100,10 @@ public class AnimationEvent : MonoBehaviour
     
         _headObj.localScale = targetScale;
     }
-    
+
+    public void Knock()
+    {
+        SoundManager.Instance.PlaySFX("KnockingGlass");
+    }
+
 }

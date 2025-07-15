@@ -11,6 +11,7 @@ public class UFOLightAnimation : MonoBehaviour
     public void DownLight()
     {
         StartCoroutine(DownAnimateScale());
+        SoundManager.Instance.PlaySFX("UFO");
     }
 
     public void UpLight()

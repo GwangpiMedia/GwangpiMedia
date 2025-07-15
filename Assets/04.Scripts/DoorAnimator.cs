@@ -27,6 +27,7 @@ public class DoorAnimator : MonoBehaviour
 
     public void OpenDoors()
     {
+        SoundManager.Instance.PlayBGM("BGM");
         StopAllCoroutines();
         StartCoroutine(SlideDoor(leftDoor, leftClosedPos, leftOpenPos));
         StartCoroutine(SlideDoor(rightDoor, rightClosedPos, rightOpenPos));
