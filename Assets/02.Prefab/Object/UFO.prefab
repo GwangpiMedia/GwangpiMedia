@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6464849007091712982}
   - component: {fileID: 2778116986796792806}
   - component: {fileID: 6629425309866274435}
+  - component: {fileID: 5087385284021248588}
   m_Layer: 0
   m_Name: UFO
   m_TagString: Untagged
@@ -124,6 +125,20 @@ MonoBehaviour:
   stopCount: 2
   stopDelay: 1.5
   ufoLightAnim: {fileID: 2778116986796792806}
+--- !u!114 &5087385284021248588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6200731734500486997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d78d9d5b244993a469487a5e3119a1e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationAxis: {x: 0, y: 1, z: 0}
+  rotationSpeed: 90
 --- !u!1001 &1709385667283271118
 PrefabInstance:
   m_ObjectHideFlags: 0

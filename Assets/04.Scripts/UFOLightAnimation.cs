@@ -8,9 +8,6 @@ public class UFOLightAnimation : MonoBehaviour
     [SerializeField] private float maxScaleZ = 1.8f;
     [SerializeField] private GameObject UFO;
 
-    private bool isAnimating = false;
-
-
     public void DownLight()
     {
         StartCoroutine(DownAnimateScale());
