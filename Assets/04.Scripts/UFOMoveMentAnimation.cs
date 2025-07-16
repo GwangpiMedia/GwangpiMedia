@@ -78,7 +78,7 @@ public class UFOMoveMentAnimation : MonoBehaviour
             if (!stopDone && Vector3.Distance(worldPos, stopKnotWorld) < 0.2f)
             {
                 stopDone = true;
-                yield return new WaitForSeconds(1f); // 여기서 1초 정지
+                yield return new WaitForSeconds(1f);
             }
             
             yield return null;
@@ -115,12 +115,10 @@ public class UFOMoveMentAnimation : MonoBehaviour
 
             foreach (SkinnedMeshRenderer rend in renderers)
             {
-                // 알파값 조절
                 Color color = rend.material.color;
                 color.a = alpha;
                 rend.material.color = color;
 
-                // Emission값 조절
                 Color emissionColor = Color.white * emissionIntensity;
                 rend.material.SetColor("_EmissionColor", emissionColor);
             }
