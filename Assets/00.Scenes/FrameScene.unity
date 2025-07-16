@@ -5424,6 +5424,50 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8930807002612944477, guid: 6e4cfc07daff9a94a94dff3a8e57b204, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8930807002612944477, guid: 6e4cfc07daff9a94a94dff3a8e57b204, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].time
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8930807002612944477, guid: 6e4cfc07daff9a94a94dff3a8e57b204, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[1].time
+      value: 0.0054626465
+      objectReference: {fileID: 0}
+    - target: {fileID: 8930807002612944477, guid: 6e4cfc07daff9a94a94dff3a8e57b204, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].value
+      value: 0.5199999
+      objectReference: {fileID: 0}
+    - target: {fileID: 8930807002612944477, guid: 6e4cfc07daff9a94a94dff3a8e57b204, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[1].value
+      value: 0.54166603
+      objectReference: {fileID: 0}
+    - target: {fileID: 8930807002612944477, guid: 6e4cfc07daff9a94a94dff3a8e57b204, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].inSlope
+      value: -0.03392854
+      objectReference: {fileID: 0}
+    - target: {fileID: 8930807002612944477, guid: 6e4cfc07daff9a94a94dff3a8e57b204, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].inWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8930807002612944477, guid: 6e4cfc07daff9a94a94dff3a8e57b204, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].outSlope
+      value: -0.03392854
+      objectReference: {fileID: 0}
+    - target: {fileID: 8930807002612944477, guid: 6e4cfc07daff9a94a94dff3a8e57b204, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[1].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 8930807002612944477, guid: 6e4cfc07daff9a94a94dff3a8e57b204, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].outWeight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8930807002612944477, guid: 6e4cfc07daff9a94a94dff3a8e57b204, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[1].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6643,7 +6687,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2088457518}
   m_Layer: 0
-  m_Name: HammTrainSet
+  m_Name: HammPotatoTrainSet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7945,11 +7989,10 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5775753082504639368, guid: 095051af00511c24a87316d677109fe7, type: 3}
   m_PrefabInstance: {fileID: 3835823969919568383}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &919132149159446540
+--- !u!114 &919132149159446540 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 8248629697724230736, guid: 095051af00511c24a87316d677109fe7, type: 3}
+  m_PrefabInstance: {fileID: 3835823969919568383}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132149159446539}
   m_Enabled: 1
@@ -7957,17 +8000,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29a074d529cf945029ef7cf40540c9df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Target: {fileID: 8288391}
-  m_PlayOnAwake: 0
-  m_LoopMode: 0
-  m_Method: 0
-  m_Duration: 10
-  m_MaxSpeed: 1.0565896
-  m_EasingMode: 0
-  m_AlignmentMode: 1
-  m_ObjectForwardAxis: 0
-  m_ObjectUpAxis: 1
-  m_StartOffset: 0
 --- !u!4 &920255790472503110
 Transform:
   m_ObjectHideFlags: 0
@@ -11793,18 +11825,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2088457518}
     m_Modifications:
-    - target: {fileID: 2079986897870447978, guid: 095051af00511c24a87316d677109fe7, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2079986897870447978, guid: 095051af00511c24a87316d677109fe7, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.112
-      objectReference: {fileID: 0}
-    - target: {fileID: 2079986897870447978, guid: 095051af00511c24a87316d677109fe7, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2373661125246494247, guid: 095051af00511c24a87316d677109fe7, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.95785
@@ -11847,19 +11867,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5775753082504639368, guid: 095051af00511c24a87316d677109fe7, type: 3}
       propertyPath: m_Name
-      value: Train&Hamm
+      value: Train&Hamm&Potato
       objectReference: {fileID: 0}
-    - target: {fileID: 7803228237716980613, guid: 095051af00511c24a87316d677109fe7, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.98
-      objectReference: {fileID: 0}
+    - target: {fileID: 8248629697724230736, guid: 095051af00511c24a87316d677109fe7, type: 3}
+      propertyPath: m_Target
+      value: 
+      objectReference: {fileID: 8288391}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5775753082504639368, guid: 095051af00511c24a87316d677109fe7, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 919132149159446540}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 095051af00511c24a87316d677109fe7, type: 3}
 --- !u!4 &3850042292110885682
 Transform:
