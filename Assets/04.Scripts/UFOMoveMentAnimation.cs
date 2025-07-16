@@ -14,7 +14,8 @@ public class UFOMoveMentAnimation : MonoBehaviour
     [SerializeField] private int animationKnotIndex = 1;
     [SerializeField] private GameObject[] aliens;
     
-    [SerializeField] private int stopKnotIndex = 3; 
+    [SerializeField] private int stopKnotIndex = 3;
+    [SerializeField] private int speedKnotIndex = 5;
 
     public void Play()
     {
@@ -33,8 +34,11 @@ public class UFOMoveMentAnimation : MonoBehaviour
 
         Vector3 animKnotLand = knots[animationKnotIndex].Position;
         Vector3 animKnitStop = knots[stopKnotIndex].Position;
+        Vector3 animKnitSpeed = knots[speedKnotIndex].Position;
+        
         Vector3 animKnotLands = splineContainer.transform.TransformPoint(animKnotLand);
         Vector3 stopKnotWorld = splineContainer.transform.TransformPoint(animKnitStop);
+        Vector3 speedKnotWorld = splineContainer.transform.TransformPoint(animKnitSpeed);
 
         
         bool animPlayed = false;
@@ -78,9 +82,14 @@ public class UFOMoveMentAnimation : MonoBehaviour
             if (!stopDone && Vector3.Distance(worldPos, stopKnotWorld) < 0.2f)
             {
                 stopDone = true;
-                yield return new WaitForSeconds(1f);
+                duration = 10f;
             }
-            
+
+            if (Vector3.Distance(worldPos, speedKnotWorld) < 0.2f)
+            {
+                duration = 4f;
+            }
+
             yield return null;
         }
     }

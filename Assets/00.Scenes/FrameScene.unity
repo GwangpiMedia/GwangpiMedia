@@ -5914,7 +5914,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6629425309866274435, guid: 7c1c2aacb81d42d48964884c93c76351, type: 3}
       propertyPath: duration
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6629425309866274435, guid: 7c1c2aacb81d42d48964884c93c76351, type: 3}
       propertyPath: stopCount
@@ -5930,7 +5930,11 @@ PrefabInstance:
       objectReference: {fileID: 1600569954}
     - target: {fileID: 6629425309866274435, guid: 7c1c2aacb81d42d48964884c93c76351, type: 3}
       propertyPath: stopKnotIndex
-      value: 3
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6629425309866274435, guid: 7c1c2aacb81d42d48964884c93c76351, type: 3}
+      propertyPath: speedKnotIndex
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6629425309866274435, guid: 7c1c2aacb81d42d48964884c93c76351, type: 3}
       propertyPath: splineContainer
