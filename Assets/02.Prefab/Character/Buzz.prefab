@@ -58,14 +58,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 317836323893365187}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.00871766, y: 0.045143325, z: -0.0003939608, w: 0.9989424}
-  m_LocalPosition: {x: 0.0048299995, y: 0.02369, z: 0.01065}
+  m_LocalRotation: {x: 0.008722019, y: 0.12227219, z: 0.00028149385, w: 0.9924583}
+  m_LocalPosition: {x: 0.0095, y: 0.02369, z: 0.01022}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 857584156565513976}
   m_Father: {fileID: 8060542724960401703}
-  m_LocalEulerAnglesHint: {x: 1, y: 5.175, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.988, y: 14.048, z: 0.154}
 --- !u!1 &644220727448840049
 GameObject:
   m_ObjectHideFlags: 0
@@ -270,6 +270,7 @@ GameObject:
   - component: {fileID: 8060542724960401703}
   - component: {fileID: 5278466427462734878}
   - component: {fileID: 7161736033901181324}
+  - component: {fileID: 1130638076490493941}
   m_Layer: 0
   m_Name: Buzz
   m_TagString: Untagged
@@ -308,7 +309,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 8e1690fcdf38cc543bbb6fe5b0303d42, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_AnimatePhysics: 0
@@ -331,8 +332,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lineRenderer: {fileID: 8930807002612944477}
   laserDuration: 1
-  laserLength: 15
+  laserLength: 4.5
   firePoint: {fileID: 6198304954440730328}
+--- !u!114 &1130638076490493941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2753580998297200606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 814ccbd1509186b4f9177657b102314f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buzzAnimator: {fileID: 5278466427462734878}
+  splineContainer: {fileID: 0}
+  triggerThreshold: 0.1
+  duration: 3
 --- !u!1 &2778728770728803560
 GameObject:
   m_ObjectHideFlags: 0
@@ -551,7 +568,7 @@ Transform:
   m_GameObject: {fileID: 5048406487378871700}
   serializedVersion: 2
   m_LocalRotation: {x: 0.06607379, y: -0.075685814, z: 0.0060487064, w: 0.9949218}
-  m_LocalPosition: {x: 0.0003734752, y: -0.001802541, z: -0.0022208705}
+  m_LocalPosition: {x: 0.0003734751, y: -0.001802541, z: -0.0022208705}
   m_LocalScale: {x: 13.118323, y: 13.118323, z: 13.118323}
   m_ConstrainProportionsScale: 0
   m_Children:
