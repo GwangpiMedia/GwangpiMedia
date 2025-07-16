@@ -440,8 +440,8 @@ Transform:
   m_GameObject: {fileID: 291888129}
   serializedVersion: 2
   m_LocalRotation: {x: -0.6532815, y: -0.27059805, z: -0.27059805, w: 0.6532815}
-  m_LocalPosition: {x: -0.5351, y: -0.009, z: 0.8229}
-  m_LocalScale: {x: 14.479405, y: 89.98107, z: 81.190796}
+  m_LocalPosition: {x: -0.6244, y: -0.009, z: 0.7336}
+  m_LocalScale: {x: 1.853364, y: 89.98107, z: 81.190796}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1919724506}
@@ -1942,8 +1942,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0132, y: -0.0075}
-  m_SizeDelta: {x: 1.3803, y: 1.5696}
+  m_AnchoredPosition: {x: 0.022, y: 0.078}
+  m_SizeDelta: {x: 1.1371, y: 1.2923}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &718501241
 MonoBehaviour:
@@ -5357,7 +5357,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   leftDoor: {fileID: 291888132}
   rightDoor: {fileID: 1980880553}
-  slideDistance: 1.5
+  slideDistance: 1.7
   duration: 3
 --- !u!1 &1555659548 stripped
 GameObject:
@@ -6268,8 +6268,8 @@ Transform:
   m_GameObject: {fileID: 1980880552}
   serializedVersion: 2
   m_LocalRotation: {x: -0.65328157, y: -0.27059802, z: -0.27059805, w: 0.65328145}
-  m_LocalPosition: {x: 0.7244, y: -0.001, z: 0.8334}
-  m_LocalScale: {x: 74.96594, y: 1.3758684, z: 80.10115}
+  m_LocalPosition: {x: 0.623, y: -0.013, z: 0.735}
+  m_LocalScale: {x: 90.20619, y: 1.3758684, z: 81.302666}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1995378369}
