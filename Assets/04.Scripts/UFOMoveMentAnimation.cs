@@ -82,7 +82,7 @@ public class UFOMoveMentAnimation : MonoBehaviour
             if (!stopDone && Vector3.Distance(worldPos, stopKnotWorld) < 0.2f)
             {
                 stopDone = true;
-                duration = 10f;
+                duration = 15f;
             }
 
             if (Vector3.Distance(worldPos, speedKnotWorld) < 0.2f)
