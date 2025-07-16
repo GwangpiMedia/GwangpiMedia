@@ -7529,6 +7529,7 @@ Transform:
   - {fileID: 2679758044890270465}
   - {fileID: 1822033662}
   - {fileID: 1525256215397024114}
+  - {fileID: 2891029915999279638}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -135, z: 0}
 --- !u!4 &543450653703934641 stripped
@@ -7862,7 +7863,7 @@ GameObject:
   - component: {fileID: 1717266441916187863}
   - component: {fileID: 1967585762326819720}
   m_Layer: 0
-  m_Name: ball
+  m_Name: Ball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10517,12 +10518,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 864315451538031185}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.3364342, y: 0.19424032, z: 0.79800504, w: 0.46072835}
-  m_LocalPosition: {x: -2.13, y: 2.09, z: 23.08}
-  m_LocalScale: {x: 21.75, y: 21.75, z: 21.75}
+  m_LocalRotation: {x: 0.8660084, y: 0.49999005, z: -0.0054413676, w: -0.0031415522}
+  m_LocalPosition: {x: 1.3823942, y: 1.545, z: 0.123743296}
+  m_LocalScale: {x: 10.874996, y: 10.874997, z: 10.874997}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 543450652250010716}
   m_LocalEulerAnglesHint: {x: 0, y: 45.72, z: 120}
 --- !u!1 &2896820327780275234
 GameObject:
@@ -18383,4 +18384,3 @@ SceneRoots:
   - {fileID: 2049040391}
   - {fileID: 543450652250010716}
   - {fileID: 1497068048}
-  - {fileID: 2891029915999279638}
