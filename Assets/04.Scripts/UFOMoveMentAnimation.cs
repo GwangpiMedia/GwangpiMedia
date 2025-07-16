@@ -13,6 +13,8 @@ public class UFOMoveMentAnimation : MonoBehaviour
     
     [SerializeField] private int animationKnotIndex = 1;
     [SerializeField] private GameObject[] aliens;
+    
+    [SerializeField] private int stopKnotIndex = 2; 
 
     public void Play()
     {
@@ -29,9 +31,14 @@ public class UFOMoveMentAnimation : MonoBehaviour
             yield break;
         }
 
-        Vector3 animKnotLocal = knots[animationKnotIndex].Position;
-        Vector3 animKnotWorld = splineContainer.transform.TransformPoint(animKnotLocal);
+        Vector3 animKnotLand = knots[animationKnotIndex].Position;
+        Vector3 animKnitStop = knots[stopKnotIndex].Position;
+        Vector3 animKnotLands = splineContainer.transform.TransformPoint(animKnotLand);
+        Vector3 stopKnotWorld = splineContainer.transform.TransformPoint(animKnitStop);
+
+        
         bool animPlayed = false;
+        bool stopDone = false;
 
         float t = 0f;
         while (t < 1f)
@@ -46,7 +53,7 @@ public class UFOMoveMentAnimation : MonoBehaviour
             Vector3 worldTangent = splineContainer.transform.TransformDirection(localTangent);
             transform.forward = worldTangent.normalized;
 
-            if (!animPlayed && Vector3.Distance(worldPos, animKnotWorld) < 0.2f)
+            if (!animPlayed && Vector3.Distance(worldPos, animKnotLands) < 0.2f)
             {
                 animPlayed = true;
 
@@ -68,6 +75,12 @@ public class UFOMoveMentAnimation : MonoBehaviour
                 }
             }
 
+            if (!stopDone && Vector3.Distance(worldPos, stopKnotWorld) < 0.2f)
+            {
+                stopDone = true;
+                yield return new WaitForSeconds(1f); // 여기서 1초 정지
+            }
+            
             yield return null;
         }
     }
