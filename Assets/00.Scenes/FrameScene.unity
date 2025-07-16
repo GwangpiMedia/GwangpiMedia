@@ -5243,23 +5243,23 @@ MonoBehaviour:
   - m_EditModeType: 1
     m_Knots:
     - Position:
-        x: 0.9163668
+        x: -0.18563342
         y: 0.0000006556511
-        z: 1.2535963
+        z: 1.4475965
       TangentIn:
         x: -0
         y: -0
-        z: -0.1713756
+        z: -0.2832702
       TangentOut:
         x: 0
         y: 0
-        z: 0.1713756
+        z: 0.2832702
       Rotation:
         value:
-          x: 0.00000005437738
-          y: 0.7657415
-          z: 0.000000045671722
-          w: 0.64314854
+          x: 0.000000054379306
+          y: 0.7658263
+          z: 0.00000004566111
+          w: 0.6430475
     - Position:
         x: 2.6043668
         y: 0.0000006556511
@@ -5267,17 +5267,17 @@ MonoBehaviour:
       TangentIn:
         x: -0
         y: -0
-        z: -0.46827424
+        z: -0.6769338
       TangentOut:
         x: 0
         y: 0
-        z: 0.4637421
+        z: 0.5214307
       Rotation:
         value:
-          x: -0.000000051390966
-          y: 0.9221509
-          z: -0.000000021557838
-          w: 0.38683027
+          x: -0.000000051391417
+          y: 0.92217636
+          z: -0.000000021554046
+          w: 0.38676947
     - Position:
         x: 2.9243667
         y: 0.0000006556511
@@ -8405,7 +8405,7 @@ Light:
   serializedVersion: 11
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -8448,7 +8448,7 @@ Light:
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_ColorTemperature: 2745
+  m_ColorTemperature: 3400
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
