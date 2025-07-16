@@ -14,7 +14,7 @@ public class UFOMoveMentAnimation : MonoBehaviour
     [SerializeField] private int animationKnotIndex = 1;
     [SerializeField] private GameObject[] aliens;
     
-    [SerializeField] private int stopKnotIndex = 2; 
+    [SerializeField] private int stopKnotIndex = 3; 
 
     public void Play()
     {

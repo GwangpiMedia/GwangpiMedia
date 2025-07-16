@@ -5929,6 +5929,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1600569954}
     - target: {fileID: 6629425309866274435, guid: 7c1c2aacb81d42d48964884c93c76351, type: 3}
+      propertyPath: stopKnotIndex
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6629425309866274435, guid: 7c1c2aacb81d42d48964884c93c76351, type: 3}
       propertyPath: splineContainer
       value: 
       objectReference: {fileID: 668069116}
