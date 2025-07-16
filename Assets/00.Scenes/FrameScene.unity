@@ -5912,6 +5912,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5278466427462734878, guid: 6e4cfc07daff9a94a94dff3a8e57b204, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8060542724960401703, guid: 6e4cfc07daff9a94a94dff3a8e57b204, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.7
@@ -7439,6 +7443,7 @@ MonoBehaviour:
   buzzAnimator: {fileID: 2135875053}
   splineContainer: {fileID: 1538314317}
   triggerThreshold: 0.1
+  duration: 3
 --- !u!33 &204886590802402075
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -8824,6 +8829,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1875913832}
     m_Modifications:
+    - target: {fileID: 1238976644350380670, guid: 2e08aefdcc9bae340b2a608d4b56693a, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1307081556396152448, guid: 2e08aefdcc9bae340b2a608d4b56693a, type: 3}
       propertyPath: mainCamera
       value: 
@@ -8905,6 +8914,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8228747223695583384, guid: 2e08aefdcc9bae340b2a608d4b56693a, type: 3}
+      propertyPath: _bigHeadSize
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8228747223695583384, guid: 2e08aefdcc9bae340b2a608d4b56693a, type: 3}
       propertyPath: _rex.goalPos
       value: 
       objectReference: {fileID: 0}
@@ -8964,6 +8977,10 @@ PrefabInstance:
       propertyPath: _trainAndHammSplineAnimate
       value: 
       objectReference: {fileID: 919132149159446540}
+    - target: {fileID: 8373973243106455034, guid: 2e08aefdcc9bae340b2a608d4b56693a, type: 3}
+      propertyPath: targetZ
+      value: -0.7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

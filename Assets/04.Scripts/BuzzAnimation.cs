@@ -9,6 +9,7 @@ public class BuzzAnimation : MonoBehaviour
 
     [SerializeField] private SplineContainer splineContainer;
     [SerializeField] private float triggerThreshold = 0.1f;
+    [SerializeField] private float duration = 4f;
 
     private bool prideTriggered = false;
     private bool razerTriggered = false;
@@ -20,7 +21,6 @@ public class BuzzAnimation : MonoBehaviour
 
     private IEnumerator MoveBuzzAlongSpline()
     {
-        float duration = 5f;
         float t = 0f;
 
         Vector3 knot1World = Vector3.zero;
