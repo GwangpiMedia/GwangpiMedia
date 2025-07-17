@@ -25,6 +25,7 @@ public class AnimationEvent : MonoBehaviour
     [SerializeField] private SplineAnimate _solider3Animate;
     [SerializeField] private BuzzAnimation _buzzAnimation;
     [SerializeField] private ChairAnimation _chairAnimation;
+    [SerializeField] private SplineAnimate _spaceShipAnimate;
 
     public void DoorOpen()
     {
@@ -106,4 +107,13 @@ public class AnimationEvent : MonoBehaviour
         SoundManager.Instance.PlaySFX("KnockingGlass");
     }
 
+    public void SpaceShipMove()
+    {
+        _spaceShipAnimate.Play();
+    }
+
+    public void SpaceshipSound()
+    {
+        SoundManager.Instance.PlaySFX("Spaceship");
+    }
 }
