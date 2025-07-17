@@ -5502,7 +5502,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   leftDoor: {fileID: 291888132}
   rightDoor: {fileID: 1980880553}
-  slideDistance: 1.7
+  slideDistance: 2
   duration: 3
 --- !u!1 &1548809278
 GameObject:
