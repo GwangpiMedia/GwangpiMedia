@@ -16,12 +16,16 @@ public class DoorAnimator : MonoBehaviour
     private Vector3 rightOpenPos;
     
     private void Awake()
-    {
+    {   
         leftClosedPos = leftDoor.localPosition;
         rightClosedPos = rightDoor.localPosition;
         Vector3 rightDir = rightDoor.right.normalized;
-
-        leftOpenPos = new Vector3(leftClosedPos.x - slideDistance, leftClosedPos.y, leftClosedPos.z + slideDistance);
+        
+        float adjustedSlideDistance = slideDistance / Mathf.Sqrt(2);
+        leftOpenPos = new Vector3(
+            leftClosedPos.x - adjustedSlideDistance,
+            leftClosedPos.y,
+            leftClosedPos.z + adjustedSlideDistance);
         rightOpenPos = rightClosedPos + rightDir * slideDistance;
     }
 
